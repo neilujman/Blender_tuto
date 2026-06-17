@@ -1,0 +1,4 @@
+import bpy
+
+# move the active object by 0.5 along the X axis
+bpy.context.object.location.x += 0.5
